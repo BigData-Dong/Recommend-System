@@ -26,11 +26,12 @@ public class MovieLensDataModel extends FileDataModel {
     };
 
     private static File convertFile(File orginalFile) throws IOException{
-        File resultFile = new File(System.getProperty("java.io.tmpdir"),"ratings.dat");
+        File resultFile = new File("G:\\机器学习-数据\\推荐系统\\MovieLens","ratings.dat");
+//        File resultFile = new File(System.getProperty("java.io.tmpdir"),"ratings.dat");
         if(resultFile.exists()){
             resultFile.delete();
         }
-        try(BufferedWriter writer = new BufferedWriter( new OutputStreamWriter(new FileOutputStream(resultFile), Charsets.UTF_8))){
+        try(Writer writer = new OutputStreamWriter(new FileOutputStream(resultFile), Charsets.UTF_8)){
             for(String line : new FileLineIterable(orginalFile,false)){
                 int lastIndexOf = line.lastIndexOf(COLON_DELIMINITER);
                 if(lastIndexOf < 0){
@@ -39,7 +40,7 @@ public class MovieLensDataModel extends FileDataModel {
                 String subLine = line.substring(0,lastIndexOf);
                 String convertedSubLine = COLON_DELIMITER_PATTERN.matcher(subLine).replaceAll(",");
                 writer.write(convertedSubLine);
-                writer.newLine();
+                writer.write("\n");
                 writer.flush();
             }
         }catch (IOException e){

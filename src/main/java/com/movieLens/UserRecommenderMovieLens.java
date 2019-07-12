@@ -12,9 +12,7 @@ import org.apache.mahout.cf.taste.recommender.RecommendedItem;
 import org.apache.mahout.cf.taste.recommender.Recommender;
 import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.List;
 
 /*
@@ -23,6 +21,7 @@ import java.util.List;
  * @Auther: djr
  * @Date: 2019/7/8 20:12
  * @Description: 用户推荐
+ * args : G:\机器学习-数据\推荐系统\MovieLens\ml-1m\ratings.dat
  */
 public class UserRecommenderMovieLens {
 
@@ -31,10 +30,11 @@ public class UserRecommenderMovieLens {
     public static void main(String[] args) throws Exception {
 
         if(args.length != 1){
-            System.err.print("");
+            System.err.println("Needs MovieLens 1M dataset as arugument!");
+            System.exit(-1);
         }
-
-        File resultFile = new File(System.getProperty("java.io.tmpdir"),"userRcomd.csv");
+        File resultFile = new File("G:\\机器学习-数据\\推荐系统\\MovieLens","userRcomd.csv");
+//        File resultFile = new File(System.getProperty("java.io.tmpdir"),"userRcomd.csv");
         DataModel dataModel = new MovieLensDataModel(new File(args[0]));
         UserSimilarity userSimilarity = new PearsonCorrelationSimilarity(dataModel);
         UserNeighborhood neighborhood = new NearestNUserNeighborhood(100,userSimilarity,dataModel);
@@ -46,13 +46,13 @@ public class UserRecommenderMovieLens {
         RecommenderBuilder recommenderBuilder = (model) -> {
           UserSimilarity userSimilarity1 = new PearsonCorrelationSimilarity(model);
           UserNeighborhood neighborhood1 = new NearestNUserNeighborhood(100,userSimilarity,model);
-          return new GenericUserBasedRecommender(model,neighborhood,userSimilarity);
+          return new GenericUserBasedRecommender(model,neighborhood1,userSimilarity1);
         };
 
         double score = rms.evaluate(recommenderBuilder,null,dataModel,0.9,0.5);
         System.out.print("RMSE score is " + score);
 
-        try(PrintWriter writer = new PrintWriter(resultFile)){
+        try(BufferedWriter writer = new BufferedWriter(new PrintWriter(resultFile))){
             for(int userID=1;userID <= dataModel.getNumUsers();userID ++ ){
                 List<RecommendedItem> recommendedItems = cachingRecommender.recommend(userID,2);
                 // every user id
@@ -61,10 +61,11 @@ public class UserRecommenderMovieLens {
                     line += recommendedItem.getItemID() + ":" + recommendedItem.getValue()+",";
                 }
                 if (line.endsWith(",")){
-                    line.substring(0,line.length());
+                    line = line.substring(0, line.length()-1);
                 }
                 writer.write(line);
-                writer.write("\n");
+                writer.newLine();
+                writer.flush();
             }
         }catch (IOException e){
            resultFile.delete();

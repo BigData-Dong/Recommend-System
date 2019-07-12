@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="347ca307-8c1c-4379-9dc9-8d2ecd525022" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +21,136 @@
       <file leaf-file-name="UserRecommenderMovieLens.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+            <state relative-caret-position="230">
+              <caret line="62" column="36" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1229#1257#1" expanded="true" />
+                <element signature="e#1256#1286#0" expanded="true" />
+                <element signature="e#1322#1386#1" expanded="true" />
+                <element signature="e#1395#1471#1" expanded="true" />
+                <element signature="e#1480#1571#1" expanded="true" />
+                <element signature="e#1580#1677#1" expanded="true" />
+                <element signature="e#1701#1770#1" expanded="true" />
+                <element signature="e#1804#1864#1" expanded="true" />
+                <element signature="e#1873#2204#1" expanded="true" />
+                <element signature="e#1936#2009#1" expanded="true" />
+                <element signature="e#2020#2108#1" expanded="true" />
+                <element signature="e#2214#2285#1" expanded="true" />
+                <element signature="e#2462#2486#0" expanded="true" />
+                <element signature="e#2462#2486#0" expanded="true" />
+                <element signature="e#2418#2431#1" expanded="true" />
+                <element signature="e#2588#3243#0" expanded="true" />
+                <element signature="e#2588#3243#0" expanded="true" />
+                <element signature="e#2441#2464#0" expanded="true" />
+                <element signature="e#2588#3243#0" expanded="true" />
+                <element signature="e#2494#2574#1" expanded="true" />
+                <element signature="e#2624#2653#1" expanded="true" />
+                <element signature="e#2812#2826#0" expanded="true" />
+                <element signature="e#2812#2826#0" expanded="true" />
+                <element signature="e#2675#2706#0" expanded="true" />
+                <element signature="e#2930#2996#0" expanded="true" />
+                <element signature="e#2756#2783#0" expanded="true" />
+                <element signature="e#2930#2996#0" expanded="true" />
+                <element signature="e#2930#2996#0" expanded="true" />
+                <element signature="e#2792#2818#0" expanded="true" />
+                <element signature="e#2930#2996#0" expanded="true" />
+                <element signature="e#3077#3108#0" expanded="true" />
+                <element signature="e#3077#3108#0" expanded="true" />
+                <element signature="e#3365#3470#0" expanded="true" />
+                <element signature="e#3182#3205#0" expanded="true" />
+                <element signature="e#3365#3470#0" expanded="true" />
+                <element signature="e#3365#3470#0" expanded="true" />
+                <element signature="e#3238#3266#0" expanded="true" />
+                <element signature="e#3365#3470#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieLensDataModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#865#893#1" expanded="true" />
+                <element signature="e#892#922#0" expanded="true" />
+                <element signature="e#1169#1180#0" expanded="true" />
+                <element signature="e#1241#1295#1" expanded="true" />
+                <element signature="e#1367#1491#0" expanded="true" />
+                <element signature="e#1367#1491#0" expanded="true" />
+                <element signature="e#1367#1491#0" expanded="true" />
+                <element signature="e#1375#1416#0" expanded="true" />
+                <element signature="e#1375#1416#0" expanded="true" />
+                <element signature="e#1453#1500#1" expanded="true" />
+                <element signature="e#1525#1554#0" expanded="true" />
+                <element signature="e#1525#1554#0" expanded="true" />
+                <element signature="e#1525#1554#0" expanded="true" />
+                <element signature="e#1517#1600#1" expanded="true" />
+                <element signature="e#1733#1737#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BatchItemSimilaritiesMovieLens.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1220#1298#1" expanded="true" />
+                <element signature="e#1247#1277#0" expanded="true" />
+                <element signature="e#1307#1371#1" expanded="true" />
+                <element signature="e#1399#1470#1" expanded="true" />
+                <element signature="e#1512#1605#1" expanded="true" />
+                <element signature="e#1691#1791#1" expanded="true" />
+                <element signature="e#1801#1868#1" expanded="true" />
+                <element signature="e#1972#2094#1" expanded="true" />
+                <element signature="e#2039#2059#0" expanded="true" />
+                <element signature="e#2223#2341#0" expanded="true" />
+                <element signature="e#2223#2341#0" expanded="true" />
+                <element signature="e#2223#2341#0" expanded="true" />
+                <element signature="e#2161#2184#0" expanded="true" />
+                <element signature="e#2223#2341#0" expanded="true" />
+                <element signature="e#2223#2341#0" expanded="true" />
+                <element signature="e#2213#2241#0" expanded="true" />
+                <element signature="e#2223#2341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberFormatException.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/jdk/src.zip!/java/lang/NumberFormatException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="65" column="5" selection-start-line="63" selection-start-column="58" selection-end-line="65" selection-end-column="5" />
+              <folding>
+                <element signature="e#1330#1363#0" expanded="true" />
+                <element signature="e#1330#1363#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommenderIntro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/RecommenderIntro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateGenericDataModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -36,6 +163,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MovieLensDataModel</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,10 +231,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="40" />
+    <option name="x" value="440" />
+    <option name="y" value="65" />
     <option name="width" value="1275" />
-    <option name="height" value="954" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,6 +242,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,8 +290,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -185,14 +317,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="CreateGenericDataModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recommentd.example.CreateGenericDataModel" />
+  <component name="RunManager" selected="Application.UserRecommenderMovieLens">
+    <configuration name="BatchItemSimilaritiesMovieLens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movieLens.BatchItemSimilaritiesMovieLens" />
       <module name="RecommendSys" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\MovieLens\ml-1m\ratings.dat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recommentd.example.*" />
+          <option name="PATTERN" value="com.movieLens.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,13 +363,14 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RecommenderIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recommentd.example.RecommenderIntro" />
+    <configuration name="UserRecommenderMovieLens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.movieLens.UserRecommenderMovieLens" />
       <module name="RecommendSys" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\MovieLens\ml-1m\ratings.dat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recommentd.example.*" />
+          <option name="PATTERN" value="com.movieLens.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,19 +417,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CreateGenericDataModel" />
-      <item itemvalue="Application.RecommenderIntro" />
       <item itemvalue="Application.EvaluatorIntro" />
       <item itemvalue="Application.IREvaluatorIntro" />
       <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.BatchItemSimilaritiesMovieLens" />
+      <item itemvalue="Application.UserRecommenderMovieLens" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserRecommenderMovieLens" />
+        <item itemvalue="Application.BatchItemSimilaritiesMovieLens" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.IREvaluatorIntro" />
         <item itemvalue="Application.EvaluatorIntro" />
-        <item itemvalue="Application.RecommenderIntro" />
-        <item itemvalue="Application.CreateGenericDataModel" />
       </list>
     </recent_temporary>
   </component>
@@ -322,40 +456,42 @@
       <workItem from="1562575380096" duration="8770000" />
       <workItem from="1562825024314" duration="2000" />
       <workItem from="1562826358739" duration="39000" />
+      <workItem from="1562900120626" duration="5895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52551000" />
+    <option name="totallyTimeSpent" value="58446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="67" width="1020" height="763" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5005025" side_tool="true" weight="0.29333332" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.327748" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3559322" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49949747" weight="0.245" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5005025" side_tool="true" weight="0.29333332" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.327748" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.4093098" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49932975" visible="true" weight="0.16124469" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2058212" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.22520107" />
       <window_info anchor="right" id="SciView" order="9" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3559322" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49949747" weight="0.245" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -367,9 +503,8 @@
       <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.18884893" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.18884893" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -394,6 +529,7 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3559322" />
     </layout-to-restore>
   </component>
@@ -404,20 +540,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericUserBasedRecommender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/recommender/Recommender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/model/AbstractDataModel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -587,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/common/iterator/FileLineIterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="81" column="33" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/linear/LinearDrill.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -627,13 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/similarity/precompute/BatchItemSimilarities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -672,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/similarity/precompute/MultithreadedBatchItemSimilarities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/similarity/precompute/SimilarItemsWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -700,20 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/RecommenderIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -731,26 +818,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/RecommenderIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="65" column="5" selection-start-line="63" selection-start-column="58" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#1330#1363#0" expanded="true" />
+            <element signature="e#1330#1363#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/common/iterator/FileLineIterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/similarity/precompute/MultithreadedBatchItemSimilarities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+          <folding>
+            <element signature="e#8070#8071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/model/file/FileDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="679" selection-start-line="679" selection-end-line="679" />
+          <folding>
+            <element signature="e#24554#24555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/similarity/precompute/BatchItemSimilarities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#865#893#1" expanded="true" />
+            <element signature="e#892#922#0" expanded="true" />
+            <element signature="e#1169#1180#0" expanded="true" />
+            <element signature="e#1241#1295#1" expanded="true" />
+            <element signature="e#1367#1491#0" expanded="true" />
+            <element signature="e#1367#1491#0" expanded="true" />
+            <element signature="e#1367#1491#0" expanded="true" />
+            <element signature="e#1375#1416#0" expanded="true" />
+            <element signature="e#1375#1416#0" expanded="true" />
+            <element signature="e#1453#1500#1" expanded="true" />
+            <element signature="e#1525#1554#0" expanded="true" />
+            <element signature="e#1525#1554#0" expanded="true" />
+            <element signature="e#1525#1554#0" expanded="true" />
+            <element signature="e#1517#1600#1" expanded="true" />
+            <element signature="e#1733#1737#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="542">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1298#1" expanded="true" />
+            <element signature="e#1247#1277#0" expanded="true" />
+            <element signature="e#1307#1371#1" expanded="true" />
+            <element signature="e#1399#1470#1" expanded="true" />
+            <element signature="e#1512#1605#1" expanded="true" />
+            <element signature="e#1691#1791#1" expanded="true" />
+            <element signature="e#1801#1868#1" expanded="true" />
+            <element signature="e#1972#2094#1" expanded="true" />
+            <element signature="e#2039#2059#0" expanded="true" />
+            <element signature="e#2223#2341#0" expanded="true" />
+            <element signature="e#2223#2341#0" expanded="true" />
+            <element signature="e#2223#2341#0" expanded="true" />
+            <element signature="e#2161#2184#0" expanded="true" />
+            <element signature="e#2223#2341#0" expanded="true" />
+            <element signature="e#2223#2341#0" expanded="true" />
+            <element signature="e#2213#2241#0" expanded="true" />
+            <element signature="e#2223#2341#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="56" column="63" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+        <state relative-caret-position="230">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1229#1257#1" expanded="true" />
+            <element signature="e#1256#1286#0" expanded="true" />
+            <element signature="e#1322#1386#1" expanded="true" />
+            <element signature="e#1395#1471#1" expanded="true" />
+            <element signature="e#1480#1571#1" expanded="true" />
+            <element signature="e#1580#1677#1" expanded="true" />
+            <element signature="e#1701#1770#1" expanded="true" />
+            <element signature="e#1804#1864#1" expanded="true" />
+            <element signature="e#1873#2204#1" expanded="true" />
+            <element signature="e#1936#2009#1" expanded="true" />
+            <element signature="e#2020#2108#1" expanded="true" />
+            <element signature="e#2214#2285#1" expanded="true" />
+            <element signature="e#2462#2486#0" expanded="true" />
+            <element signature="e#2462#2486#0" expanded="true" />
+            <element signature="e#2418#2431#1" expanded="true" />
+            <element signature="e#2588#3243#0" expanded="true" />
+            <element signature="e#2588#3243#0" expanded="true" />
+            <element signature="e#2441#2464#0" expanded="true" />
+            <element signature="e#2588#3243#0" expanded="true" />
+            <element signature="e#2494#2574#1" expanded="true" />
+            <element signature="e#2624#2653#1" expanded="true" />
+            <element signature="e#2812#2826#0" expanded="true" />
+            <element signature="e#2812#2826#0" expanded="true" />
+            <element signature="e#2675#2706#0" expanded="true" />
+            <element signature="e#2930#2996#0" expanded="true" />
+            <element signature="e#2756#2783#0" expanded="true" />
+            <element signature="e#2930#2996#0" expanded="true" />
+            <element signature="e#2930#2996#0" expanded="true" />
+            <element signature="e#2792#2818#0" expanded="true" />
+            <element signature="e#2930#2996#0" expanded="true" />
+            <element signature="e#3077#3108#0" expanded="true" />
+            <element signature="e#3077#3108#0" expanded="true" />
+            <element signature="e#3365#3470#0" expanded="true" />
+            <element signature="e#3182#3205#0" expanded="true" />
+            <element signature="e#3365#3470#0" expanded="true" />
+            <element signature="e#3365#3470#0" expanded="true" />
+            <element signature="e#3238#3266#0" expanded="true" />
+            <element signature="e#3365#3470#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -19,19 +19,19 @@ import java.io.File;
  * @Auther: djr
  * @Date: 2019/7/8 16:44
  * @Description:  批量生成物品推荐结果
+ * args : G:\机器学习-数据\推荐系统\MovieLens\ml-1m\ratings.dat
  */
 public class BatchItemSimilaritiesMovieLens {
 
     private BatchItemSimilaritiesMovieLens(){};
 
     public static void main(String[] args) throws Exception{
-
+        //G:\机器学习-数据\推荐系统\MovieLens\ratings.dat
         if(args.length != 1){
             System.err.printf("Needs MovieLens 1M dataset as arugument!");
             System.exit(0);
         }
-
-        File resultFile = new File(System.getProperty("java.io.tmpdir"),"similarities.csv");
+        File resultFile = new File("G:\\机器学习-数据\\推荐系统\\MovieLens","similarities.csv");
         DataModel dataModel = new MovieLensDataModel(new File(args[0]));
         // 对数似然相似度
         ItemSimilarity itemSimilarity = new LogLikelihoodSimilarity(dataModel);
@@ -50,7 +50,7 @@ public class BatchItemSimilaritiesMovieLens {
             2. 最大运行的秩序时间（hourse）
             3. 输出的文件
          */
-        int numSimilar = batchItemSimilarities.computeItemSimilarities(Runtime.getRuntime().availableProcessors(),1,writer);
-        System.out.println("Computed " + numSimilar + " for " + dataModel.getNumItems() + " item and saved them to " + resultFile.getAbsolutePath());
+        int numSimilarites = batchItemSimilarities.computeItemSimilarities(Runtime.getRuntime().availableProcessors(), 1, writer);
+        System.out.println("Computed "+ numSimilarites+ " for "+ dataModel.getNumItems()+" items and saved them to "+resultFile.getAbsolutePath());
     }
 }
