@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="347ca307-8c1c-4379-9dc9-8d2ecd525022" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/movieLens/UserRecommenderMovieLens.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/movieLens/UserRecommenderMovieLens.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,139 +17,135 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserRecommenderMovieLens.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java">
+      <file leaf-file-name="BXDataModelBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModelBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="79">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1229#1257#1" expanded="true" />
-                <element signature="e#1256#1286#0" expanded="true" />
-                <element signature="e#1322#1386#1" expanded="true" />
-                <element signature="e#1395#1471#1" expanded="true" />
-                <element signature="e#1480#1571#1" expanded="true" />
-                <element signature="e#1580#1677#1" expanded="true" />
-                <element signature="e#1701#1770#1" expanded="true" />
-                <element signature="e#1804#1864#1" expanded="true" />
-                <element signature="e#1873#2204#1" expanded="true" />
-                <element signature="e#1936#2009#1" expanded="true" />
-                <element signature="e#2020#2108#1" expanded="true" />
-                <element signature="e#2214#2285#1" expanded="true" />
-                <element signature="e#2462#2486#0" expanded="true" />
-                <element signature="e#2462#2486#0" expanded="true" />
-                <element signature="e#2418#2431#1" expanded="true" />
-                <element signature="e#2588#3243#0" expanded="true" />
-                <element signature="e#2588#3243#0" expanded="true" />
-                <element signature="e#2441#2464#0" expanded="true" />
-                <element signature="e#2588#3243#0" expanded="true" />
-                <element signature="e#2494#2574#1" expanded="true" />
-                <element signature="e#2624#2653#1" expanded="true" />
-                <element signature="e#2812#2826#0" expanded="true" />
-                <element signature="e#2812#2826#0" expanded="true" />
-                <element signature="e#2675#2706#0" expanded="true" />
-                <element signature="e#2930#2996#0" expanded="true" />
-                <element signature="e#2756#2783#0" expanded="true" />
-                <element signature="e#2930#2996#0" expanded="true" />
-                <element signature="e#2930#2996#0" expanded="true" />
-                <element signature="e#2792#2818#0" expanded="true" />
-                <element signature="e#2930#2996#0" expanded="true" />
-                <element signature="e#3077#3108#0" expanded="true" />
-                <element signature="e#3077#3108#0" expanded="true" />
-                <element signature="e#3365#3470#0" expanded="true" />
-                <element signature="e#3182#3205#0" expanded="true" />
-                <element signature="e#3365#3470#0" expanded="true" />
-                <element signature="e#3365#3470#0" expanded="true" />
-                <element signature="e#3238#3266#0" expanded="true" />
-                <element signature="e#3365#3470#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieLensDataModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java">
+      <file leaf-file-name="BXReCommender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXReCommender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#865#893#1" expanded="true" />
-                <element signature="e#892#922#0" expanded="true" />
-                <element signature="e#1169#1180#0" expanded="true" />
-                <element signature="e#1241#1295#1" expanded="true" />
-                <element signature="e#1367#1491#0" expanded="true" />
-                <element signature="e#1367#1491#0" expanded="true" />
-                <element signature="e#1367#1491#0" expanded="true" />
-                <element signature="e#1375#1416#0" expanded="true" />
-                <element signature="e#1375#1416#0" expanded="true" />
-                <element signature="e#1453#1500#1" expanded="true" />
-                <element signature="e#1525#1554#0" expanded="true" />
-                <element signature="e#1525#1554#0" expanded="true" />
-                <element signature="e#1525#1554#0" expanded="true" />
-                <element signature="e#1517#1600#1" expanded="true" />
-                <element signature="e#1733#1737#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BatchItemSimilaritiesMovieLens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+            <state relative-caret-position="364">
+              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1220#1298#1" expanded="true" />
-                <element signature="e#1247#1277#0" expanded="true" />
-                <element signature="e#1307#1371#1" expanded="true" />
-                <element signature="e#1399#1470#1" expanded="true" />
-                <element signature="e#1512#1605#1" expanded="true" />
-                <element signature="e#1691#1791#1" expanded="true" />
-                <element signature="e#1801#1868#1" expanded="true" />
-                <element signature="e#1972#2094#1" expanded="true" />
-                <element signature="e#2039#2059#0" expanded="true" />
-                <element signature="e#2223#2341#0" expanded="true" />
-                <element signature="e#2223#2341#0" expanded="true" />
-                <element signature="e#2223#2341#0" expanded="true" />
-                <element signature="e#2161#2184#0" expanded="true" />
-                <element signature="e#2223#2341#0" expanded="true" />
-                <element signature="e#2223#2341#0" expanded="true" />
-                <element signature="e#2213#2241#0" expanded="true" />
-                <element signature="e#2223#2341#0" expanded="true" />
+                <element signature="e#935#962#0" expanded="true" />
+                <element signature="e#1125#1200#1" expanded="true" />
+                <element signature="e#1314#1413#1" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2456#2482#0" expanded="true" />
+                <element signature="e#2488#2489#0" expanded="true" />
+                <element signature="e#2571#2572#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberFormatException.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/jdk/src.zip!/java/lang/NumberFormatException.java">
+      <file leaf-file-name="BXRecommenderBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="65" column="5" selection-start-line="63" selection-start-column="58" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
-                <element signature="e#1330#1363#0" expanded="true" />
-                <element signature="e#1330#1363#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecommenderIntro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/RecommenderIntro.java">
+      <file leaf-file-name="BXRecommenderEvaluator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="63" />
+            <state relative-caret-position="248">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1045#1107#1" expanded="true" />
+                <element signature="e#1116#1201#1" expanded="true" />
+                <element signature="e#1211#1301#1" expanded="true" />
+                <element signature="e#1338#1361#0" expanded="true" />
+                <element signature="e#1338#1361#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateGenericDataModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
+      <file leaf-file-name="BXBooleanRecommender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
+            <state relative-caret-position="112">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1304#1408#1" expanded="true" />
+                <element signature="e#1633#1749#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CachingUserSimilarity.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/similarity/CachingUserSimilarity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BXBooleanRecommenderEvaluator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommenderEvaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1090#1153#1" expanded="true" />
+                <element signature="e#1162#1243#1" expanded="true" />
+                <element signature="e#1314#1464#1" expanded="true" />
+                <element signature="e#1520#1643#0" expanded="true" />
+                <element signature="e#1534#1559#0" expanded="true" />
+                <element signature="e#1520#1643#0" expanded="true" />
+                <element signature="e#1520#1643#0" expanded="true" />
+                <element signature="e#1580#1602#0" expanded="true" />
+                <element signature="e#1520#1643#0" expanded="true" />
+                <element signature="e#1520#1643#0" expanded="true" />
+                <element signature="e#1618#1643#0" expanded="true" />
+                <element signature="e#1520#1643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IRStatistics.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/IRStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="21" />
+              <folding>
+                <element signature="e#1777#1778#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IREvaluatorIntro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/IREvaluatorIntro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="17" />
+              <folding>
+                <element signature="e#2952#2974#0" expanded="true" />
+                <element signature="e#3022#3047#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,8 +183,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/recommentd/example/IREvaluatorIntro.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/movieLens/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommendBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModelBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommenderEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXReCommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderEvaluator.java" />
       </list>
     </option>
   </component>
@@ -230,11 +233,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="440" />
-    <option name="y" value="65" />
-    <option name="width" value="1275" />
-    <option name="height" value="955" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="522" />
+    <option name="y" value="107" />
+    <option name="width" value="1383" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,7 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,13 +287,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="movieLens" type="462c0819:PsiDirectoryNode" />
+              <item name="BookCrossing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +320,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserRecommenderMovieLens">
+  <component name="RunManager" selected="Application.BXBooleanRecommenderEvaluator">
+    <configuration name="BXBooleanRecommenderEvaluator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXBooleanRecommenderEvaluator" />
+      <module name="RecommendSys" />
+      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\Book-Crossing\BX-Book-Ratings.csv" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BookCrossing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BXDataModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXDataModel" />
+      <module name="RecommendSys" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BookCrossing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BXRecommenderEvaluator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXRecommenderEvaluator" />
+      <module name="RecommendSys" />
+      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\Book-Crossing\BX-Book-Ratings.csv" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BookCrossing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="BatchItemSimilaritiesMovieLens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.movieLens.BatchItemSimilaritiesMovieLens" />
       <module name="RecommendSys" />
@@ -326,39 +364,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.movieLens.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.movieLens.Demo" />
-      <module name="RecommendSys" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.movieLens.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="EvaluatorIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recommentd.example.EvaluatorIntro" />
-      <module name="RecommendSys" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recommentd.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="IREvaluatorIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recommentd.example.IREvaluatorIntro" />
-      <module name="RecommendSys" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recommentd.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,19 +422,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.EvaluatorIntro" />
-      <item itemvalue="Application.IREvaluatorIntro" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.BatchItemSimilaritiesMovieLens" />
       <item itemvalue="Application.UserRecommenderMovieLens" />
+      <item itemvalue="Application.BXDataModel" />
+      <item itemvalue="Application.BXRecommenderEvaluator" />
+      <item itemvalue="Application.BXBooleanRecommenderEvaluator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BXBooleanRecommenderEvaluator" />
+        <item itemvalue="Application.BXRecommenderEvaluator" />
+        <item itemvalue="Application.BXDataModel" />
         <item itemvalue="Application.UserRecommenderMovieLens" />
         <item itemvalue="Application.BatchItemSimilaritiesMovieLens" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.IREvaluatorIntro" />
-        <item itemvalue="Application.EvaluatorIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -456,25 +461,26 @@
       <workItem from="1562575380096" duration="8770000" />
       <workItem from="1562825024314" duration="2000" />
       <workItem from="1562826358739" duration="39000" />
-      <workItem from="1562900120626" duration="5895000" />
+      <workItem from="1562900120626" duration="13243000" />
+      <workItem from="1562937751571" duration="5311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58446000" />
+    <option name="totallyTimeSpent" value="71105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5005025" side_tool="true" weight="0.29333332" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.327748" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32748026" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.6105898" />
       <window_info anchor="right" id="Database" order="2" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3559322" />
@@ -486,9 +492,9 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49932975" visible="true" weight="0.16124469" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.5459689" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.22520107" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.230563" />
       <window_info anchor="right" id="SciView" order="9" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -496,15 +502,15 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.4667988" />
       <window_info anchor="bottom" id="Find" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.18884893" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="3" />
@@ -529,7 +535,6 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3559322" />
     </layout-to-restore>
   </component>
@@ -539,176 +544,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/model/AbstractDataModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/model/file/FileDataModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-math/0.9/mahout-math-0.9.jar!/org/apache/mahout/common/RandomUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/eval/AverageAbsoluteDifferenceRecommenderEvaluator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/eval/AbstractDifferenceRecommenderEvaluator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/eval/RecommenderBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/recommender/UserBasedRecommender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/eval/RecommenderEvaluator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" column="103" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/RecommenderEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="72" column="32" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/similarity/UncenteredCosineSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="27" column="99" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/similarity/UserSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericUserBasedRecommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/RecommenderBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/recommender/Recommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/eval/IRStatisticsImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/RecommenderIRStatsEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/IRStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="54" column="67" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/eval/GenericRecommenderIRStatsEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/IREvaluatorIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="317" column="9" selection-start-line="315" selection-start-column="27" selection-end-line="317" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/org/apache/commons/io/Charsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3335">
-          <caret line="147" column="10" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/linear/LinearDrill.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -728,13 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericItemBasedRecommender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -794,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreatePreferenceArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -811,43 +638,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/EvaluatorIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="60" column="69" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/RecommenderIntro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/jdk/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
+        <state relative-caret-position="242">
           <caret line="65" column="5" selection-start-line="63" selection-start-column="58" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="e#1330#1363#0" expanded="true" />
             <element signature="e#1330#1363#0" expanded="true" />
             <element signature="e#1364#1365#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/common/iterator/FileLineIterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -878,101 +677,346 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/common/iterator/FileLineIterable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#865#893#1" expanded="true" />
-            <element signature="e#892#922#0" expanded="true" />
-            <element signature="e#1169#1180#0" expanded="true" />
-            <element signature="e#1241#1295#1" expanded="true" />
-            <element signature="e#1367#1491#0" expanded="true" />
-            <element signature="e#1367#1491#0" expanded="true" />
-            <element signature="e#1367#1491#0" expanded="true" />
-            <element signature="e#1375#1416#0" expanded="true" />
-            <element signature="e#1375#1416#0" expanded="true" />
-            <element signature="e#1453#1500#1" expanded="true" />
-            <element signature="e#1525#1554#0" expanded="true" />
-            <element signature="e#1525#1554#0" expanded="true" />
-            <element signature="e#1525#1554#0" expanded="true" />
-            <element signature="e#1517#1600#1" expanded="true" />
-            <element signature="e#1733#1737#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="700">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        <state relative-caret-position="952">
+          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericBooleanPrefUserBasedRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericItemBasedRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/AbstractRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericUserBasedRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-968">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1220#1298#1" expanded="true" />
-            <element signature="e#1247#1277#0" expanded="true" />
-            <element signature="e#1307#1371#1" expanded="true" />
-            <element signature="e#1399#1470#1" expanded="true" />
-            <element signature="e#1512#1605#1" expanded="true" />
-            <element signature="e#1691#1791#1" expanded="true" />
-            <element signature="e#1801#1868#1" expanded="true" />
-            <element signature="e#1972#2094#1" expanded="true" />
-            <element signature="e#2039#2059#0" expanded="true" />
-            <element signature="e#2223#2341#0" expanded="true" />
-            <element signature="e#2223#2341#0" expanded="true" />
-            <element signature="e#2223#2341#0" expanded="true" />
-            <element signature="e#2161#2184#0" expanded="true" />
-            <element signature="e#2223#2341#0" expanded="true" />
-            <element signature="e#2223#2341#0" expanded="true" />
-            <element signature="e#2213#2241#0" expanded="true" />
-            <element signature="e#2223#2341#0" expanded="true" />
+            <element signature="e#3565#3630#1" expanded="true" />
+            <element signature="e#3636#3712#1" expanded="true" />
+            <element signature="e#3718#3834#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="36" />
+        <state relative-caret-position="342">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1229#1257#1" expanded="true" />
-            <element signature="e#1256#1286#0" expanded="true" />
-            <element signature="e#1322#1386#1" expanded="true" />
-            <element signature="e#1395#1471#1" expanded="true" />
-            <element signature="e#1480#1571#1" expanded="true" />
-            <element signature="e#1580#1677#1" expanded="true" />
-            <element signature="e#1701#1770#1" expanded="true" />
-            <element signature="e#1804#1864#1" expanded="true" />
-            <element signature="e#1873#2204#1" expanded="true" />
-            <element signature="e#1936#2009#1" expanded="true" />
-            <element signature="e#2020#2108#1" expanded="true" />
-            <element signature="e#2214#2285#1" expanded="true" />
-            <element signature="e#2462#2486#0" expanded="true" />
-            <element signature="e#2462#2486#0" expanded="true" />
-            <element signature="e#2418#2431#1" expanded="true" />
-            <element signature="e#2588#3243#0" expanded="true" />
-            <element signature="e#2588#3243#0" expanded="true" />
-            <element signature="e#2441#2464#0" expanded="true" />
-            <element signature="e#2588#3243#0" expanded="true" />
-            <element signature="e#2494#2574#1" expanded="true" />
-            <element signature="e#2624#2653#1" expanded="true" />
-            <element signature="e#2812#2826#0" expanded="true" />
-            <element signature="e#2812#2826#0" expanded="true" />
-            <element signature="e#2675#2706#0" expanded="true" />
-            <element signature="e#2930#2996#0" expanded="true" />
-            <element signature="e#2756#2783#0" expanded="true" />
-            <element signature="e#2930#2996#0" expanded="true" />
-            <element signature="e#2930#2996#0" expanded="true" />
-            <element signature="e#2792#2818#0" expanded="true" />
-            <element signature="e#2930#2996#0" expanded="true" />
-            <element signature="e#3077#3108#0" expanded="true" />
-            <element signature="e#3077#3108#0" expanded="true" />
-            <element signature="e#3365#3470#0" expanded="true" />
-            <element signature="e#3182#3205#0" expanded="true" />
-            <element signature="e#3365#3470#0" expanded="true" />
-            <element signature="e#3365#3470#0" expanded="true" />
-            <element signature="e#3238#3266#0" expanded="true" />
-            <element signature="e#3365#3470#0" expanded="true" />
+            <element signature="e#2668#2748#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/recommender/CachingRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="219" column="5" selection-start-line="217" selection-start-column="37" selection-end-line="219" selection-end-column="5" />
+          <folding>
+            <element signature="e#6865#6866#0" expanded="true" />
+            <element signature="e#7650#7651#0" expanded="true" />
+            <element signature="e#7676#7677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/recommender/Recommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+          <folding>
+            <element signature="e#2371#2372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/RecommenderBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/RecommenderIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/recommender/UserBasedRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="61" column="31" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+          <folding>
+            <element signature="e#1452#1453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/neighborhood/NearestNUserNeighborhood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="74" column="53" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/RecommenderIRStatsEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="61" column="51" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreatePreferenceArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/EvaluatorIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/DataModelBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/model/PreferenceArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="e#1926#1927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/model/GenericBooleanPrefDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
+          <folding>
+            <element signature="e#2463#2464#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#5221#5243#0" expanded="true" />
+            <element signature="e#5249#5374#0" expanded="true" />
+            <element signature="e#5249#5374#0" expanded="true" />
+            <element signature="e#5487#5865#0" expanded="true" />
+            <element signature="e#5492#5520#0" expanded="true" />
+            <element signature="e#5523#5568#0" expanded="true" />
+            <element signature="e#5546#5567#0" expanded="true" />
+            <element signature="e#5523#5568#0" expanded="true" />
+            <element signature="e#5487#5865#0" expanded="true" />
+            <element signature="e#5589#5652#1" expanded="true" />
+            <element signature="e#5617#5651#0" expanded="true" />
+            <element signature="e#5635#5651#0" expanded="true" />
+            <element signature="e#5659#5689#1" expanded="true" />
+            <element signature="e#5696#5736#1" expanded="true" />
+            <element signature="e#5743#5828#0" expanded="true" />
+            <element signature="e#5748#5758#1" expanded="true" />
+            <element signature="e#5743#5828#0" expanded="true" />
+            <element signature="e#5743#5828#0" expanded="true" />
+            <element signature="e#5743#5828#0" expanded="true" />
+            <element signature="e#5743#5828#0" expanded="true" />
+            <element signature="e#5835#5858#0" expanded="true" />
+            <element signature="e#5835#5858#0" expanded="true" />
+            <element signature="e#5902#5923#0" expanded="true" />
+            <element signature="e#6087#6088#0" expanded="true" />
+            <element signature="e#6128#6129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/IRStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="21" />
+          <folding>
+            <element signature="e#1777#1778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/similarity/CachingUserSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModelBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommendBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/IREvaluatorIntro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="17" />
+          <folding>
+            <element signature="e#2952#2974#0" expanded="true" />
+            <element signature="e#3022#3047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1304#1408#1" expanded="true" />
+            <element signature="e#1633#1749#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommenderEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1090#1153#1" expanded="true" />
+            <element signature="e#1162#1243#1" expanded="true" />
+            <element signature="e#1314#1464#1" expanded="true" />
+            <element signature="e#1520#1643#0" expanded="true" />
+            <element signature="e#1534#1559#0" expanded="true" />
+            <element signature="e#1520#1643#0" expanded="true" />
+            <element signature="e#1520#1643#0" expanded="true" />
+            <element signature="e#1580#1602#0" expanded="true" />
+            <element signature="e#1520#1643#0" expanded="true" />
+            <element signature="e#1520#1643#0" expanded="true" />
+            <element signature="e#1618#1643#0" expanded="true" />
+            <element signature="e#1520#1643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXReCommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#962#0" expanded="true" />
+            <element signature="e#1125#1200#1" expanded="true" />
+            <element signature="e#1314#1413#1" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2456#2482#0" expanded="true" />
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2571#2572#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1045#1107#1" expanded="true" />
+            <element signature="e#1116#1201#1" expanded="true" />
+            <element signature="e#1211#1301#1" expanded="true" />
+            <element signature="e#1338#1361#0" expanded="true" />
+            <element signature="e#1338#1361#0" expanded="true" />
           </folding>
         </state>
       </provider>
