@@ -5,6 +5,7 @@ import org.apache.mahout.cf.taste.common.TasteException;
 import org.apache.mahout.cf.taste.impl.common.LongPrimitiveIterator;
 import org.apache.mahout.cf.taste.impl.model.jdbc.ConnectionPoolDataSource;
 import org.apache.mahout.cf.taste.impl.model.jdbc.MySQLJDBCDataModel;
+import org.apache.mahout.cf.taste.impl.neighborhood.NearestNUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.neighborhood.ThresholdUserNeighborhood;
 import org.apache.mahout.cf.taste.impl.recommender.GenericUserBasedRecommender;
 import org.apache.mahout.cf.taste.impl.similarity.PearsonCorrelationSimilarity;
@@ -30,6 +31,14 @@ import java.util.logging.Logger;
  * @Auther: djr
  * @Date: 2019/7/16 13:33
  * @Description: mahout推荐案列 --->  Jdbc model implement
+ *
+ *  注: 连接Mysql会超时
+ *      需要在my.ini文件中配置如下参数
+ *          bind-address="127.0.0.1"
+            wait_timeout=31536000
+            interactive_timeout=31536000
+            connect_timeout=31536000
+ *
  */
 @SuppressWarnings("unused")
 public class MySQLDataMovieRecommend {
@@ -48,12 +57,13 @@ public class MySQLDataMovieRecommend {
         mysqlDataSource.setPassword("123");
         ConnectionPoolDataSource connectionPoolDataSource = new ConnectionPoolDataSource(mysqlDataSource);
 
-        DataModel dataModel = new MySQLJDBCDataModel(connectionPoolDataSource,"taste_preferences","user_id","item_id","preference",null);
+        DataModel dataModel = new MySQLJDBCDataModel(connectionPoolDataSource,"taste_preferences2","user_id","item_id","preference",null);
 
 
         // Recommendations
         UserSimilarity similarity = new PearsonCorrelationSimilarity(dataModel);
-        UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.3,similarity,dataModel);
+//        UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.3,similarity,dataModel);
+        UserNeighborhood neighborhood = new NearestNUserNeighborhood(3,similarity,dataModel);
         UserBasedRecommender recommender = new GenericUserBasedRecommender(dataModel,neighborhood,similarity);
 
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile))){
@@ -69,7 +79,6 @@ public class MySQLDataMovieRecommend {
                 if(line.endsWith(",")){
                     line = line.substring(0,line.length()-1);
                 }
-                System.out.println(line);
                 writer.write(line);
                 writer.flush();
                 writer.newLine();
