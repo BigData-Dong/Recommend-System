@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="347ca307-8c1c-4379-9dc9-8d2ecd525022" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator6$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +28,8 @@
       <file leaf-file-name="MovieLenesRecommendSpark.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="123" column="48" selection-start-line="123" selection-start-column="48" selection-end-line="123" selection-end-column="48" />
+            <state relative-caret-position="2128">
+              <caret line="79" column="51" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="51" />
               <folding>
                 <element signature="e#23#81#0" expanded="true" />
               </folding>
@@ -53,8 +40,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark-recommendation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="103" column="40" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+            <state relative-caret-position="2884">
+              <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -62,8 +49,8 @@
       <file leaf-file-name="MovieLensALS.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="-156">
+              <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="25" />
               <folding>
                 <element signature="e#20#39#0" expanded="true" />
               </folding>
@@ -89,6 +76,8 @@
       <find>product</find>
       <find>movies</find>
       <find>ratings</find>
+      <find>ALS</find>
+      <find>computeRms</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,111 +163,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="187" />
-    <option name="width" value="1128" />
-    <option name="height" value="828" />
+    <option name="x" value="192" />
+    <option name="y" value="402" />
+    <option name="width" value="1417" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="spark-recommendation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="spark-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="spark-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="spark-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="spark-recommendation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="dylan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="linear" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="recommend" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="UserRe&#9;FILE&#9;jar://D:/repository/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/recommender/UserBasedRecommender.class" />
@@ -287,10 +182,10 @@
     <property name="last_opened_file_path" value="D:/IDEA-project/sparkMlib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.41546392" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -309,23 +204,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovieLenesRecommendSpark">
+  <component name="RunManager" selected="Application.MovieLensALS">
     <configuration name="BXBooleanRecommenderEvaluator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXBooleanRecommenderEvaluator" />
       <module name="RecommendSys" />
       <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\Book-Crossing\BX-Book-Ratings.csv" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.BookCrossing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BXDataModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXDataModel" />
-      <module name="RecommendSys" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.BookCrossing.*" />
@@ -352,6 +236,18 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.recommend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MovieLensALS" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.dylan.MovieLensALS" />
+      <module name="sparkrecommendation" />
+      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\MovieLens\ml-1m" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dylan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,19 +305,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BXDataModel" />
       <item itemvalue="Application.BXRecommenderEvaluator" />
       <item itemvalue="Application.BXBooleanRecommenderEvaluator" />
       <item itemvalue="Application.MySQLDataMovieRecommend" />
       <item itemvalue="Application.MovieLenesRecommendSpark" />
+      <item itemvalue="Application.MovieLensALS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieLensALS" />
         <item itemvalue="Application.MovieLenesRecommendSpark" />
         <item itemvalue="Application.MySQLDataMovieRecommend" />
         <item itemvalue="Application.BXBooleanRecommenderEvaluator" />
         <item itemvalue="Application.BXRecommenderEvaluator" />
-        <item itemvalue="Application.BXDataModel" />
       </list>
     </recent_temporary>
   </component>
@@ -465,11 +361,13 @@
       <workItem from="1565271267432" duration="2308000" />
       <workItem from="1565359658798" duration="1702000" />
       <workItem from="1565518451412" duration="9742000" />
+      <workItem from="1565613310737" duration="3302000" />
+      <workItem from="1565785653418" duration="4770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104139000" />
+    <option name="totallyTimeSpent" value="112211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,33 +379,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="150" width="902" height="662" extended-state="0" />
+    <frame x="154" y="322" width="1133" height="732" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5005025" side_tool="true" weight="0.29333332" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32707775" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.41763726" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49949747" weight="0.42595673" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5005025" side_tool="true" weight="0.29333332" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32707775" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.49917626" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.3826955" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.27667984" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.2761394" />
       <window_info anchor="right" id="SciView" order="9" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3559322" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49949747" weight="0.2150376" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -561,20 +459,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/DataModelBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/model/PreferenceArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/model/GenericBooleanPrefDataModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -887,17 +771,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/1.6.1/spark-mllib_2.11-1.6.1-sources.jar!/org/apache/spark/mllib/recommendation/ALS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="123" column="48" selection-start-line="123" selection-start-column="48" selection-end-line="123" selection-end-column="48" />
+        <state relative-caret-position="2128">
+          <caret line="79" column="51" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="51" />
           <folding>
             <element signature="e#23#81#0" expanded="true" />
           </folding>
@@ -906,15 +783,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spark-recommendation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="103" column="40" lean-forward="true" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        <state relative-caret-position="2884">
+          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/1.6.1/spark-mllib_2.11-1.6.1-sources.jar!/org/apache/spark/mllib/recommendation/ALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8960">
+          <caret line="340" column="43" selection-start-line="340" selection-start-column="23" selection-end-line="340" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-mllib_2.11/1.6.1/spark-mllib_2.11-1.6.1-sources.jar!/org/apache/spark/mllib/evaluation/RegressionMetrics.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="-156">
+          <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="25" />
           <folding>
             <element signature="e#20#39#0" expanded="true" />
           </folding>
@@ -927,10 +825,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>sparkrecommendation:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41546392" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

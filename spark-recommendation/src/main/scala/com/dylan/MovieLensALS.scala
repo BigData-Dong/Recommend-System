@@ -6,8 +6,10 @@ import java.io.File
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.evaluation.RegressionMetrics
-import org.apache.spark.mllib.recommendation.{MatrixFactorizationModel, Rating}
+import org.apache.spark.mllib.recommendation.{ALS, MatrixFactorizationModel, Rating}
 import org.apache.spark.rdd.RDD
+
+import scala.util.Random
 
 
 /*
@@ -19,7 +21,7 @@ import org.apache.spark.rdd.RDD
  */
 object MovieLensALS {
 
-  //1. Define a rating elicitation function
+  //1.  Define a rating elicitation function
   def elicitateRating(movies: Seq[(Int,String)]) = {
     val prompt = "please rate the following movie(1-5(best) or 0 if not seen!)"
     println(prompt)
@@ -73,7 +75,7 @@ object MovieLensALS {
 
    //3.1 Setup env
     val conf = new SparkConf().setAppName(this.getClass.getSimpleName)
-      .set("spark.executor,memory","500m")
+      .set("spark.executor,memory","500m").setMaster("local")
     val sc = new SparkContext(conf)
 
   //3.2 Load ratings data and know your data
@@ -86,23 +88,78 @@ object MovieLensALS {
     val movies = sc.textFile(new File(movieLensHomeDir,"movies.dat").toString).map{ line =>
       val fields = line.split("::")
       // movieId，movieName
-      (fields(0).toLong,fields(1).toString)
-    }
+      (fields(0).toInt,fields(1).toString)
+    }.collectAsMap()
     val numRatings = ratings.count()
     val numUser = ratings.map(x => x._2.user).distinct().count()
     val numMovie = ratings.map(_._2.product).distinct().count()
 
     println("Got " + numRatings + " ratings from " + numUser + " users on " + numMovie + " movies.")
   //3.3 Elicitate personal rating
+    val topMovies = ratings.map(_._2.product).countByValue().toSeq.sortBy(-_._2).take(50).map(_._1)
+    val random = new Random(0)
+    val selectMovies = topMovies.filter(x=>random.nextDouble() < 0.2).map(x=>(x,movies(x)))
+    // the user to scores 50 family
+    val myRatings = elicitateRating(selectMovies)
+    val myRatingsRDD = sc.parallelize(myRatings,1)
 
-  //3.4 Split data into train(68%),validation(20%) and test(20%)
+  //3.4 Split data into train(60%),validation(20%) and test(20%)
+    val numPartitions = 10
+    val trainSet = ratings.filter(x=>x._1 < 6).map(_._2).union(myRatingsRDD).repartition(numPartitions).persist()
+    val validationSet = ratings.filter(x => x._1 >= 6 && x._1 <8).map(_._2).persist()
+    val testSet = ratings.filter(x => x._1>=8).map(_._2).persist()
+
+    val numTrain = trainSet.count()
+    val numValidationg = validationSet.count()
+    val numTest = testSet.count()
+    println("train data : " + numTrain + " Validation data: " + numValidationg + " test data: " + numTest)
 
   //3.5 train model and optimize model with validation set
+    val numRanks = List(8,12)
+    val numIters = List(10,20)
+    val numLambdas = List(0.1,10.0) // 正则化因子
+    var bestRmse = Double.MaxValue
+    var bestModel:Option[MatrixFactorizationModel] = None
+    var bestRanks = -1
+    var bestIters = 0
+    var bestLambdas = -1.0
 
-  //3.6 Create a baseline and evaluate model with test set
+    for (rank <- numRanks;iter <- numIters;lambda <- numLambdas){
+      val model = ALS.train(trainSet,rank,iter,lambda)
+      // 平方根误差
+      val validationRmse = computeRms(model,validationSet)
+      println("RMSE(validation) = " + validationRmse + " with ranks=" + rank + ",iter="+iter+",lambda="+lambda)
+      if(validationRmse < bestRmse){
+        bestModel = Some(model)
+        bestIters = iter
+        bestLambdas = lambda
+        bestRanks = rank
+        bestRmse = validationRmse
+      }
+    }
 
-  //3.7 Make a personal recommendation
+   // 3.6 Ivaluate model on test set
+    val testRmse = computeRms(bestModel.get,testSet)
+    println("THe best model was trained with rank="+bestRanks+",Iter="+bestIters+",Lambda="+bestLambdas+" " +
+      "and computer RMSE on test is " + testRmse)
+
+  //3.7 Create a baseline and compare it with best model
+    val meanRating = trainSet.union(validationSet).map(_.rating).mean()
+    val bestlineRmse = new RegressionMetrics(testSet.map(x=>(x.rating,meanRating))).rootMeanSquaredError
+    val improvement = (bestlineRmse - testRmse)/bestlineRmse*100
+    println("The best model improves the baseline by " + "%1.2f".format(improvement)+"%")
+
+  //3.8 Make a personal recommendation
+    val moviesID = myRatings.map(_.product)
+    val candidates = sc.parallelize(movies.keys.filter(!moviesID.contains(_)).toSeq)
+    val recommendatins = bestModel.get.predict(candidates.map(x => (0, x)))
+      .sortBy(-_.rating).take(50)
+
+    var i = 0
+    println("Movies recommended for you:")
+    recommendatins.foreach{line=>
+      println("%2d".format(i) + ":" + movies(line.product))
+      i += 1
+    }
   }
-
-
 }
