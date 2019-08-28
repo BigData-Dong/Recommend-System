@@ -9,5 +9,9 @@
         <module name="sparkrecommendation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mahoutrecommendation" target="1.8" />
+      <module name="sparkrecommendation" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

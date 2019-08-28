@@ -5,12 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="347ca307-8c1c-4379-9dc9-8d2ecd525022" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/recom/commom/ItemSimilarity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/recom/webservice/ItemBasedRecoResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/recom/webservice/RecoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/recom/webservice/RecommendedItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/sparkrecommendation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark-recommendation/sparkrecommendation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$22.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$23.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$25.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-recommendation/target/classes/com/dylan/MovieLensALS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$$typecreator6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommend/MovieLenesRecommendSpark$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/recommentd/example/EvaluatorIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/recommentd/example/EvaluatorIntro.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spark-recommendation/target/" />
+    <ignored path="$PROJECT_DIR$/mahout-recommendation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,37 +77,139 @@
       <FILTER>com.practice.*</FILTER>
     </SUITE>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MovieLenesRecommendSpark.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala">
+      <file leaf-file-name="SimilarityTablesGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/SimilarityTablesGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2128">
-              <caret line="79" column="51" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="51" />
+            <state relative-caret-position="1036">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
               <folding>
-                <element signature="e#23#81#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupLensDataModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/GroupLensDataModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserItemSimilarityTableRedisWriter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/UserItemSimilarityTableRedisWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemBasedRecoResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/webservice/ItemBasedRecoResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1372">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecoServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/webservice/RecoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-recommendation/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2884">
-              <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+            <state relative-caret-position="163">
+              <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="125" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieLensALS.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala">
+      <file leaf-file-name="RealtimeRecommender.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/realtime/RealtimeRecommender.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="25" />
+            <state relative-caret-position="473">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
-                <element signature="e#20#39#0" expanded="true" />
+                <element signature="e#22#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/realtime/KafkaProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="41" column="54" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#661#716#0" expanded="true" />
+                <element signature="e#661#716#0" expanded="true" />
+                <element signature="e#1025#1061#1" expanded="true" />
+                <element signature="e#1234#1282#1" expanded="true" />
+                <element signature="e#1291#1332#1" expanded="true" />
+                <element signature="e#1473#1768#0" expanded="true" />
+                <element signature="e#1478#1505#0" expanded="true" />
+                <element signature="e#1473#1768#0" expanded="true" />
+                <element signature="e#1542#1581#1" expanded="true" />
+                <element signature="e#1720#1752#0" expanded="true" />
+                <element signature="e#1720#1752#0" expanded="true" />
+                <element signature="e#1987#2025#0" expanded="true" />
+                <element signature="e#1987#2025#0" expanded="true" />
+                <element signature="e#2059#2097#0" expanded="true" />
+                <element signature="e#2059#2097#0" expanded="true" />
+                <element signature="e#2159#2160#0" expanded="true" />
+                <element signature="e#2186#2187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecommendedItems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/webservice/RecommendedItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -63,8 +219,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,6 +234,12 @@
       <find>ratings</find>
       <find>ALS</find>
       <find>computeRms</find>
+      <find>jedis</find>
+      <find>jsr311-api</find>
+      <find>jersey-container-servlet-core</find>
+      <find>jsr311-api.jar</find>
+      <find>kafka</find>
+      <find>spark</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,7 +269,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXBooleanRecommenderEvaluator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXReCommender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXRecommenderEvaluator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice/MySQLDataMovieRecommend.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/BookCrossing/BXDataModel.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/recommend/Test.kt" />
@@ -117,6 +278,24 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala" />
         <option value="$PROJECT_DIR$/spark-recommendation/pom.xml" />
         <option value="$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala" />
+        <option value="$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/ALS-examples.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/commom/Constants.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/commom/ItemSimilarity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/commom/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/offline/HDFSDataModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/offline/UserItemSimilarityTableRedisWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/commom/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/offline/GroupLensDataModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ratings.dat" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/offline/ItemsSimilarityTableRedisWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/offline/SimilarityTablesGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/webservice/ItemBasedRecoResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/webservice/RecoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/realtime/NewClickEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/recom/realtime/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/realtime/RealtimeRecommender.scala" />
       </list>
     </option>
   </component>
@@ -145,16 +324,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="RecommendSys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RecommendSys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="RecommendSys" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -163,17 +332,91 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="192" />
-    <option name="y" value="402" />
-    <option name="width" value="1417" />
-    <option name="height" value="915" />
+    <option name="x" value="585" />
+    <option name="y" value="17" />
+    <option name="width" value="1324" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="recom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RecommendSys" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RecommendSys" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="realtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="UserRe&#9;FILE&#9;jar://D:/repository/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/recommender/UserBasedRecommender.class" />
@@ -191,6 +434,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-project2\RecommendSys\src\main\java\com\recom\webservice" />
+      <recent name="D:\idea-project2\RecommendSys\src\main\resources" />
+      <recent name="D:\idea-project2\RecommendSys\spark-recommendation\src\main\scala\com\dylan" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,27 +452,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovieLensALS">
-    <configuration name="BXBooleanRecommenderEvaluator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXBooleanRecommenderEvaluator" />
+  <component name="RunManager" selected="Application.KafkaProducer">
+    <configuration name="KafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recom.realtime.KafkaProducer" />
       <module name="RecommendSys" />
-      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\Book-Crossing\BX-Book-Ratings.csv" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.BookCrossing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BXRecommenderEvaluator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BookCrossing.BXRecommenderEvaluator" />
-      <module name="RecommendSys" />
-      <option name="PROGRAM_PARAMETERS" value="G:\机器学习-数据\推荐系统\Book-Crossing\BX-Book-Ratings.csv" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.BookCrossing.*" />
+          <option name="PATTERN" value="com.recom.realtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,13 +487,25 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MySQLDataMovieRecommend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.MySQLDataMovieRecommend" />
+    <configuration name="RecoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recom.webservice.RecoServer" />
       <module name="RecommendSys" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.*" />
+          <option name="PATTERN" value="com.recom.webservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SimilarityTablesGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recom.offline.SimilarityTablesGenerator" />
+      <module name="RecommendSys" />
+      <option name="PROGRAM_PARAMETERS" value="java.io.tmpdir=G:\机器学习-数据\推荐系统\MovieLens" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.recom.offline.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,19 +552,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BXRecommenderEvaluator" />
-      <item itemvalue="Application.BXBooleanRecommenderEvaluator" />
-      <item itemvalue="Application.MySQLDataMovieRecommend" />
       <item itemvalue="Application.MovieLenesRecommendSpark" />
       <item itemvalue="Application.MovieLensALS" />
+      <item itemvalue="Application.SimilarityTablesGenerator" />
+      <item itemvalue="Application.RecoServer" />
+      <item itemvalue="Application.KafkaProducer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KafkaProducer" />
+        <item itemvalue="Application.RecoServer" />
+        <item itemvalue="Application.SimilarityTablesGenerator" />
         <item itemvalue="Application.MovieLensALS" />
         <item itemvalue="Application.MovieLenesRecommendSpark" />
-        <item itemvalue="Application.MySQLDataMovieRecommend" />
-        <item itemvalue="Application.BXBooleanRecommenderEvaluator" />
-        <item itemvalue="Application.BXRecommenderEvaluator" />
       </list>
     </recent_temporary>
   </component>
@@ -363,11 +610,15 @@
       <workItem from="1565518451412" duration="9742000" />
       <workItem from="1565613310737" duration="3302000" />
       <workItem from="1565785653418" duration="4770000" />
+      <workItem from="1565870344437" duration="2604000" />
+      <workItem from="1566021127891" duration="687000" />
+      <workItem from="1566624184405" duration="13056000" />
+      <workItem from="1566997542972" duration="2889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112211000" />
+    <option name="totallyTimeSpent" value="131447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,30 +630,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="322" width="1133" height="732" extended-state="0" />
+    <frame x="468" y="14" width="1059" height="772" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5005025" side_tool="true" weight="0.29333332" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32707775" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32667333" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3297587" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.41763726" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49949747" weight="0.42595673" />
+      <window_info anchor="bottom" id="Messages" order="5" sideWeight="0.49949747" weight="0.4227769" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="REST Client" order="13" />
       <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" weight="0.3826955" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49932975" visible="true" weight="0.048361935" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.2761394" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27772227" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3290735" />
       <window_info anchor="right" id="SciView" order="9" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -411,7 +665,6 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.60924935" />
-      <window_info anchor="bottom" id="Find" order="7" visible="true" weight="0.3290735" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -455,223 +708,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/model/GenericBooleanPrefDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="157" column="46" selection-start-line="157" selection-start-column="46" selection-end-line="157" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/eval/IRStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1372">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/impl/similarity/CachingUserSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.28/mysql-connector-java-5.1.28.jar!/com/mysql/jdbc/ConnectionPropertiesImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/model/DataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9-sources.jar!/org/apache/mahout/cf/taste/model/JDBCDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-integration/0.6/mahout-integration-0.6.jar!/org/apache/mahout/cf/taste/impl/model/jdbc/MySQLJDBCDataModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.6/mahout-core-0.6.jar!/org/apache/mahout/cf/taste/model/JDBCDataModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-integration/0.6/mahout-integration-0.6.jar!/org/apache/mahout/cf/taste/impl/model/jdbc/AbstractJDBCDataModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="132" column="5" selection-start-line="40" selection-end-line="638" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-integration/0.6/mahout-integration-0.6-sources.jar!/org/apache/mahout/cf/taste/impl/model/jdbc/AbstractJDBCDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-integration/0.6/mahout-integration-0.6-sources.jar!/org/apache/mahout/cf/taste/impl/model/jdbc/MySQLJDBCDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.6/mahout-core-0.6.jar!/org/apache/mahout/cf/taste/impl/neighborhood/ThresholdUserNeighborhood.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.6/mahout-core-0.6.jar!/org/apache/mahout/cf/taste/impl/recommender/GenericUserBasedRecommender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8.jar!/org/apache/mahout/cf/taste/eval/RecommenderEvaluator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/eval/RecommenderEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="73" column="54" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/impl/neighborhood/NearestNUserNeighborhood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/neighborhood/UserNeighborhood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/impl/common/SkippingIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/impl/common/LongPrimitiveIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/jdk/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="76" column="27" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.28/mysql-connector-java-5.1.28.jar!/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-integration/0.8/mahout-integration-0.8.jar!/org/apache/mahout/cf/taste/impl/model/jdbc/ConnectionPoolDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/impl/neighborhood/ThresholdUserNeighborhood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/MySQLDataMovieRecommend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="70" column="12" lean-forward="true" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/MovieLensDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="16" column="38" selection-start-line="15" selection-start-column="18" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/BatchItemSimilaritiesMovieLens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1148">
-          <caret line="52" column="64" selection-start-line="52" selection-start-column="64" selection-end-line="52" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/movieLens/UserRecommenderMovieLens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreateGenericDataModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/recommentd/example/CreatePreferenceArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -764,23 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="141" selection-start-line="10" selection-start-column="4" selection-end-line="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="79" column="51" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="51" />
-          <folding>
-            <element signature="e#23#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spark-recommendation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2884">
@@ -809,12 +832,318 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/ALS-examples.scala" />
     <entry file="file://$PROJECT_DIR$/spark-recommendation/src/main/scala/com/dylan/MovieLensALS.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="117" column="25" lean-forward="true" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="25" />
+        <state relative-caret-position="308">
+          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/recommend/MovieLenesRecommendSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="79" column="51" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mahout-recommendation/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/commom/Constants.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.8/mahout-core-0.8-sources.jar!/org/apache/mahout/cf/taste/impl/model/file/FileDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.1.0/jedis-2.1.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.6/commons-pool-1.6.jar!/org/apache/commons/pool/impl/GenericObjectPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="581" column="16" selection-start-line="581" selection-start-column="16" selection-end-line="581" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.1.0/jedis-2.1.0.jar!/redis/clients/util/Pool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/HDFSDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
           <folding>
-            <element signature="e#20#39#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1708#1842#0" expanded="true" />
+            <element signature="e#1708#1842#0" expanded="true" />
+            <element signature="e#1708#1842#0" expanded="true" />
+            <element signature="e#1780#1822#0" expanded="true" />
+            <element signature="e#1780#1822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/commom/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1112#1159#1" expanded="true" />
+            <element signature="e#1568#1609#1" expanded="true" />
+            <element signature="e#1585#1608#0" expanded="true" />
+            <element signature="e#1934#1991#0" expanded="true" />
+            <element signature="e#1934#1991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/commom/ItemSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/ItemsSimilarityTableRedisWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/SimilarityTablesGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/UserItemSimilarityTableRedisWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/webservice/ItemBasedRecoResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/webservice/RecommendedItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-server/9.3.0.RC0/jetty-server-9.3.0.RC0.jar!/org/eclipse/jetty/server/handler/HandlerWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="88" column="56" lean-forward="true" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.3.0.RC0/jetty-util-9.3.0.RC0.jar!/org/eclipse/jetty/util/component/AbstractLifeCycle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/offline/GroupLensDataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ratings.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1000208" column="24" selection-start-line="1000208" selection-start-column="24" selection-end-line="1000208" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/webservice/RecoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/realtime/NewClickEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/commom/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="67" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="67" />
+          <folding>
+            <element signature="e#351#373#0" expanded="true" />
+            <element signature="e#351#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.12/1.0.0/kafka_2.12-1.0.0.jar!/kafka/producer/ProducerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.12/1.0.0/kafka_2.12-1.0.0-sources.jar!/kafka/producer/ProducerConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="53" column="72" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar!/org/apache/kafka/clients/producer/ProducerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+          <folding>
+            <element signature="e#13956#13957#0" expanded="true" />
+            <element signature="e#13992#13993#0" expanded="true" />
+            <element signature="e#14046#14047#0" expanded="true" />
+            <element signature="e#14089#14090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/common/config/AbstractConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding>
+            <element signature="e#2932#2933#0" expanded="true" />
+            <element signature="e#2981#2982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-452">
+          <caret line="332" column="97" selection-start-line="332" selection-start-column="97" selection-end-line="332" selection-end-column="97" />
+          <folding>
+            <element signature="e#27229#27273#1" expanded="true" />
+            <element signature="e#27657#27658#0" expanded="true" />
+            <element signature="e#27693#27694#0" expanded="true" />
+            <element signature="e#27747#27748#0" expanded="true" />
+            <element signature="e#27790#27791#0" expanded="true" />
+            <element signature="e#27837#27838#0" expanded="true" />
+            <element signature="e#27874#27875#0" expanded="true" />
+            <element signature="e#27920#27921#0" expanded="true" />
+            <element signature="e#27976#27977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/recom/realtime/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#661#716#0" expanded="true" />
+            <element signature="e#661#716#0" expanded="true" />
+            <element signature="e#1025#1061#1" expanded="true" />
+            <element signature="e#1234#1282#1" expanded="true" />
+            <element signature="e#1291#1332#1" expanded="true" />
+            <element signature="e#1473#1768#0" expanded="true" />
+            <element signature="e#1478#1505#0" expanded="true" />
+            <element signature="e#1473#1768#0" expanded="true" />
+            <element signature="e#1542#1581#1" expanded="true" />
+            <element signature="e#1720#1752#0" expanded="true" />
+            <element signature="e#1720#1752#0" expanded="true" />
+            <element signature="e#1987#2025#0" expanded="true" />
+            <element signature="e#1987#2025#0" expanded="true" />
+            <element signature="e#2059#2097#0" expanded="true" />
+            <element signature="e#2059#2097#0" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="125" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/realtime/RealtimeRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#22#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,7 +1159,6 @@
             <option name="proportions">
               <list>
                 <option value="0.41546392" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -838,7 +1166,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -898,7 +1226,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
